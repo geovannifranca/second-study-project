@@ -6,14 +6,29 @@
   list-style: none;
 }
 
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+:root{
+  --gray: #6f6c75;
+  --black: #00001a;
+  --burnt-yellow: #e8a959;
+  --red: #f15d51;
+}
+
 .container{
   margin:90px 165px 0 165px;
 }
+
+/*----header---*/
 
 .cabecalho{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu ul {
@@ -25,4 +40,16 @@
 
 .item{
   color:#67666c;
+  font-family: myFont;
+}
+
+/*-----Primeira Secao-----*/
+
+main{
+  margin-top: 56px;
+}
+
+
+.imagemPrinciapl img{
+  width: 730px;
 }
